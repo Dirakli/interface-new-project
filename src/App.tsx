@@ -27,8 +27,8 @@ function App() {
       <Router>
         <div className='w-screen sm:h-screen flex justify-between flex-col ' >
           <Header />
-          {/* <Navigation />
-          <Footer /> */}
+          <Navigation />
+          <Footer />
         </div>
       </Router>
     </AppContext.Provider>

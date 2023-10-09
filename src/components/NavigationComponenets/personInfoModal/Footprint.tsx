@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Footprint() {
   const [showModal, setShowModal] = useState(false);
   const [name, setName] = useState("");
   const [surname, setSurname] = useState("");
-  const [age, setAge] = useState();
   const [mobileNumber, setMobileNumber] = useState("");
-  const [amount, setAmount] = useState();
+  const [age, setAge] = useState<number | undefined>(undefined);
+  const [amount, setAmount] = useState<number | undefined>(undefined);
+
 
   const [modalName, setModalName] = useState(name);
   const [modalSurname, setModalSurname] = useState(surname);

@@ -1,5 +1,4 @@
-import { Select, Option } from "@material-tailwind/react";
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState } from "react";
 import { AppContext } from "../../../App";
 
 function Analyze() {
@@ -37,7 +36,7 @@ function Analyze() {
         <div className="w-full bg-slate-100 rounded p-4 sm:h-full">
             <h1 className="text-lg font-bold font-mono text-blue-900">Analyze section</h1>
             <div className="flex justify-between items-center">
-                {headingItems[0].name.map((item, index) => {
+                {(headingItems[0]?.name || []).map((item, index) => {
                     return (
                         <div key={index} className="shadow-xl col-span-2 border-zinc-600 w-44 flex justify-between items-center border-none rounded-lg">
                             <h3 className="border-none border-opacity-70 font-inter font-medium font-mono text-blue-900 text-base text-opacity-70">{item}</h3>
@@ -47,8 +46,8 @@ function Analyze() {
             </div>
             <div className="md:grid grid-cols-2 mt-8 gap-4 flex flex-col">
                 <div className="grid grid-cols-3 gap-4 h-64 rounded-3xl">
-                    {headingItems[1].headings.map((heading, index) => {
-                        const numbersValue = headingItems[2].numbers[index];
+                    {(headingItems[1]?.headings || []).map((heading, index) => {
+                        const numbersValue = (headingItems[2]?.numbers || [])[index];
                         return (
                             <div key={index} className="flex flex-col justify-start items-center  shadow-xl bg-white rounded-xl pt-4">
                                 <h2 className="text-base font-medium leading-5 tracking-tighter font-mono text-blue-900">
