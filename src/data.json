@@ -1,0 +1,21 @@
+
+
+ {
+    "header": {
+      "devvio": "/src/assets/devvio.png",
+      "Group": "/src/assets/Group.svg",
+      "path": "/src/assets/Path.svg",
+      "Rectangle": "/src/assets/Rectangle.svg"
+    },
+    "navigation": {
+      "analyze": "/src/assets/navigation/analyze.svg",
+      "calculator": "/src/assets/navigation/calculator.svg",
+      "esg": "/src/assets/navigation/esg.svg",
+      "footprint": "/src/assets/navigation/footprint.svg",
+      "improvee": "/src/assets/navigation/improvee.svg",
+      "lauchpad": "/src/assets/navigation/lauchpad.svg",
+      "report": "/src/assets/navigation/report.svg"
+    }
+  }
+
+  
