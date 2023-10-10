@@ -24,7 +24,7 @@ function SignUp() {
         !formData.email || !formData.password || !formData.confirmPassword;
 
     return (
-        <div className="flex justify-end  h-full w-full lg:py-0 mx-auto">
+        <div className="flex justify-end  h-screen w-full lg:py-0 mx-auto">
 
                 <div className="w-full bg-white bg-opacity-60 rounded-lg shadow dark:border md:mt-0 md:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
                     <div className="p-6 h-96 space-y-4 md:space-y-6 md:p-8">
