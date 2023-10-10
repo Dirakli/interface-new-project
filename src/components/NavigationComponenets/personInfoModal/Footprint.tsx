@@ -45,7 +45,7 @@ function Footprint() {
   };
 
   return (
-    <div className="w-full bg-slate-100 rounded p-4 h-full">
+    <div className="w-full bg-slate-100 rounded p-4 h-screen">
       <div className="bg-white rounded-xl p-6 border border-gray-300 shadow-lg hover:transform hover:scale-105 hover:shadow-xl transition-transform duration-700 h-64 hover:cursor-pointer w-64">
         <h1 className="text-xl font-bold mb-2 text-blue-900" >Name: {name}</h1>
         <h2 className="text-xl font-bold  mb-4 text-blue-900">Surname: {surname}</h2>

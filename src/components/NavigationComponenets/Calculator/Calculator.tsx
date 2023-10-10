@@ -37,7 +37,7 @@ function Calculator() {
   }, [bill, tip, split]);
 
   return (
-    <main className="bg-gray-900 w-full rounded p-4 h-full">
+    <main className="bg-gray-900 w-full rounded p-4 h-screen">
       <label className="block uppercase mb-1 text-white text-lg">Bill total</label>
       <input
         type="text"

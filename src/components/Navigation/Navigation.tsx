@@ -12,7 +12,7 @@ const navItems = [
 function Navigation() {
 
     return (
-        <div className='flex h-screen flex-col md:flex-row' style={{backgroundImage: "url('https://wallpapercave.com/wp/wp3486842.jpg')"}}>
+        <div className='flex h-full flex-col md:flex-row' style={{ backgroundImage: "url('https://wallpapercave.com/wp/wp3486842.jpg')" }}>
             <nav className="flex" >
                 <ul>
                     {navItems.map((item, index) => (
