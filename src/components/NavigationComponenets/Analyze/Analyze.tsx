@@ -4,7 +4,7 @@ import { AppContext } from "../../../App";
 function Analyze() {
 
     const { formArray } = useContext(AppContext)
-    const [sum, setSum] = useState(formArray.length);
+    const [sum] = useState(formArray.length);
 
     const ageSum = formArray.reduce((total: any, person: any) => total + Number(person.age), 0);
 

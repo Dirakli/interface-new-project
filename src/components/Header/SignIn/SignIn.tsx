@@ -7,7 +7,7 @@ function Profile() {
   const [nameInput, setNameInput] = useState(''); // Create local state for name input
   const [password, setPassword] = useState('');
   const { isLoggedIn, setIsLoggedIn } = useContext(AppContext);
-  const { name, setName } = useContext(AppContext);
+  const { setName } = useContext(AppContext);
 
   useEffect(() => {
     if (!isLoggedIn) {

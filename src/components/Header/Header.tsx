@@ -1,11 +1,11 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import data from "../../data.json"
 import { Link } from "react-router-dom";
 import { AppContext } from "../../App";
 
 function Header() {
     const { isLoggedIn, setIsLoggedIn } = useContext(AppContext);
-    const { name, setName } = useContext(AppContext);
+    const { name } = useContext(AppContext);
 
     const handleLogout = () => {
         localStorage.removeItem('user');
